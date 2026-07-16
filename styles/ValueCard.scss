@@ -1,0 +1,51 @@
+.value-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(2, 30, 64, 0.1);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(2, 30, 64, 0.05);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+
+    &:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 14px 40px rgba(2, 30, 64, 0.15);
+    }
+
+    .icon {
+        background: rgba(2, 30, 64, 0.08);
+        color: #021e40;
+        border-radius: 50%;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+
+        svg {
+            stroke-width: 2.2;
+        }
+
+        &:hover {
+            background: #021e40;
+            color: #fff;
+        }
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        color: #021e40;
+        margin-top: 0.5rem;
+    }
+
+    p {
+        color: #555;
+        line-height: 1.5;
+        font-size: 0.95rem;
+    }
+}
