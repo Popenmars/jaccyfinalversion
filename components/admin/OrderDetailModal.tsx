@@ -1,6 +1,6 @@
 "use client";
 
-import { Order } from "@prisma/client";
+import { Order } from "@/types";
 import { X, MapPin, Phone, MessageCircle, Package } from "lucide-react";
 import { CartItem } from "@/types";
 

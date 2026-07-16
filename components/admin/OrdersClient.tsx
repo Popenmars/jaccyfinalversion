@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useTransition } from "react";
-import { Order } from "@prisma/client";
+import { Order } from "@/types";
 import { updateOrderStatus } from "@/app/actions/admin";
 import { cn } from "@/lib/utils";
 import { Eye, ChevronLeft, ChevronRight, ChevronsLeft, ChevronsRight, Search } from "lucide-react";

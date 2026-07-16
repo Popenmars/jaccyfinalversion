@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Product } from "@prisma/client";
+import { Product } from "@/types";
 import { useCart } from "@/context/CartContext";
 import { ShoppingCart, Check } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -28,7 +28,7 @@ export const ProductCard = ({ product }: { product: Product }) => {
 
     const handleAddToCart = useCallback(
         (setAdded: (v: boolean) => void) => {
-            dispatch({ type: "ADD_ITEM", payload: product as unknown as import("@/types").Product });
+            dispatch({ type: "ADD_ITEM", payload: product as Product });
             setAdded(true);
             setTimeout(() => setAdded(false), 2000);
         },
