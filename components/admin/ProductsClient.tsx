@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Plus, Edit, Trash2, Search, Filter } from "lucide-react";
+import { Plus, Edit, Trash2, Search } from "lucide-react";
 import { deleteProduct } from "@/app/actions/admin";
 import type { Product } from "@/types";
 import { cn } from "@/lib/utils";

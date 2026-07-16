@@ -1,7 +1,7 @@
 export const dynamic = "force-dynamic";
 
 import { prisma } from "@/lib/prisma";
-import { Package, ShoppingCart, DollarSign, TrendingUp } from "lucide-react";
+import { Package, ShoppingCart, DollarSign } from "lucide-react";
 
 async function getStats() {
   const [productCount, orderCount, totalRevenue, pendingOrders] = await Promise.all([
