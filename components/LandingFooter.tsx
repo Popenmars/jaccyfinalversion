@@ -39,7 +39,7 @@ export const LandingFooter = () => {
             <hr className="w-[90%] mx-auto border-0 h-[1px] bg-dark-blue opacity-20" />
             <div className="mx-auto text-center pb-[1rem]">
                 <p className="text-[0.9rem] max-[600px]:text-[0.8rem] max-[600px]:px-[1rem]">&copy; {new Date().getFullYear()} Jaacyy&apos;s Gadgets. All rights reserved</p>
-                <p className="text-[0.9rem] max-[600px]:text-[0.8rem] max-[600px]:px-[1rem]">Built by <a href="marsynergy.com" className="text-dark-blue no-underline transition-colors duration-300 hover:text-deep-peach">marsynergy</a></p>
+                <p className="text-[0.9rem] max-[600px]:text-[0.8rem] max-[600px]:px-[1rem]">Built by <a href="https://www.linkedin.com/in/martin-praise/" className="text-dark-blue no-underline transition-colors duration-300 hover:text-deep-peach">marsynergy</a></p>
             </div>
         </footer>
     )

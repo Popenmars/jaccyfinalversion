@@ -44,7 +44,7 @@ export const AdminSidebar = () => {
       >
         {/* Logo */}
         <div className="p-6 border-b border-white/10">
-          <h2 className="text-white font-bold text-xl">Jaacy Admin</h2>
+          <h2 className="text-white font-bold text-xl">Jaacyy&apos;s Admin</h2>
           <p className="text-white/50 text-xs mt-0.5">Management Panel</p>
         </div>
 

@@ -22,11 +22,11 @@ export default function AdminLoginPage() {
         {/* Logo */}
         <div className="flex justify-center mb-8">
           <Image
-            src="/logo/jaacys-logo.png"
+            src="/logo.png"
             alt="Jaacyy's Gadgets"
             width={180}
             height={80}
-            className="object-contain brightness-0 invert"
+            className="object-contain rounded-[20px]"
           />
         </div>
 
