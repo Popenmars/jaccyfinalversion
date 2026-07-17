@@ -11,10 +11,8 @@ import { CartDrawer } from "@/components/CartDrawer";
 
 const LandingNavLinks = [
     { id: 1, name: "Home", href: "/" },
-    // { id: 2, name: "About", href: "/about" },
     { id: 3, name: "Shop", href: "/shop" },
     { id: 4, name: "Contact", href: "/contact" },
-    // { id: 5, name: "Blog", href: "/blog" }
 ]
 
 export const LandingNav = () => {
@@ -33,7 +31,7 @@ export const LandingNav = () => {
                 className="w-[150px] h-[90px] p-[20px] max-[900px]:w-[200px] cursor-pointer"
             >
                 <Image
-                    src="/logo/jaacys-logo.png"
+                    src="/logo.png"
                     width={300}
                     height={300}
                     alt="logo"
